@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    display: flex;
+    width: 100vw;
+    height: 84px;
+    box-shadow: 0px 1px rgba(212, 209, 209, 0.664);
+}
+
+.menu-navegador{
+    display: inline-flex;
+}
+
+.menu-navegador__page{
+    display: inline-block;
+    margin-left: 30px;
+    transform: translate(740px,30px);
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.p1{
+    transform: translate(68.25px,30px);
+}
+
+.container-frontal{
+    width: 100vw;
+    height: 586px;
+}
+
+h1{
+    width: 970px;
+    height: 182px;
+    text-align: center;
+    font-size: 76px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(200px);
+}
+
+.container-frontal__text{
+    width: 960px;
+    height: 84px;
+    text-align: center;
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(220px);
+}
+
+.container{
+    width: 100vw;
+    height: 1006px;
+    background-color: #F2F4F7;
+}
+
+.container-h{
+    width: 153px;
+    height: 34px;
+    font-size: 26px;
+    transform: translate(250px,81px);
+}
+
+.container-article{
+    width: 980px;
+    height: 260px;
+    /* outline: 1px solid gold; */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    transform: translate(0,100px);
+    margin-top: 20px;
+    background-color: #FFF;
+}
+
+.container-article__fecha{
+    width: 107px;
+    height: 16px;
+    transform: translate(30px,41px);
+}
+
+.container-article__title{
+    width: 610px;
+    height: 68px;
+    font-size: 26px;
+    transform: translate(30px,60px);
+}
+.container-article__text{
+    width: 610px;
+    height: 54px;
+    transform: translate(30px,70px);
+}
+
+img{
+    width: 300px;
+    height: 211.85px;
+    border-radius: 10px;
+    transform: translate(660px, -110px);
+}
+.pp{
+    height: auto;
+    width: 100vw;
+    /* margin-top: 51px; */
+    
+}
+
+.hpp{
+    width: 302px;
+    height: 36px;
+    font-size: 26px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(60px);
+}
+
+.textpp{
+    width: 472px;
+    height: 56px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(70px);
+    
+}
+
+.copy{
+    width: 181px;
+    height: 81px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(200px);
+}
