@@ -20,7 +20,6 @@
     transform: translate(740px,30px);
     
 }
-
 a{
     text-decoration: none;
     color: #000;
@@ -30,9 +29,19 @@ a{
     transform: translate(68.25px,30px);
 }
 
-.container-frontal{
+.principal{
     width: 100vw;
-    height: 586px;
+    height: 418px;
+    /* outline: 2px solid rebeccapurple; */
+}
+
+.principal-date{
+    width: 207px;
+    height: 16px;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(120px);
 }
 
 h1{
@@ -42,34 +51,73 @@ h1{
     font-size: 76px;
     margin-left: auto;
     margin-right: auto;
-    transform: translateY(200px);
+    transform: translateY(120px);
+
+}
+.information{
+    width: 100vw;
+    height: 2460px;
 }
 
-.container-frontal__text{
-    width: 960px;
-    height: 84px;
-    text-align: center;
-    font-size: 28px;
+.information-img1{
+    width: 1100px;
+    height: 580px;
+    border-radius: 35px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    transform: translateY(220px);
+}
+
+.information-text{
+    width: 680px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 18px;
+    padding-top: 40px;
+    /* padding-bottom: 40px; */
+}
+
+.information-img2{
+    width: 780px;
+    height: 580px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.information-important{
+    width: 740px;
+    height: 135px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    display: inline-block;
+    transform: translate(380px,-16px);
+}
+.caja{
+    width: 8px;
+    height: 128px;
+    background-color: #C41740;
+    display: inline-block;
+    transform: translateX(353px);
 }
 
 .container{
     width: 100vw;
-    height: 1006px;
+    height: 1044px;
+    /* outline: 2px solid green; */
     background-color: #F2F4F7;
+    
 }
 
-.view{
-    width: 77px;
-    height: 26px;
-    font-size: 14px;
-    border-radius: 8px;
-    background-color: #FFF;
-    text-align: center;
-    transform: translate(1090px,50px);
-    padding-top: 10px;
+.container-title{
+    width: 295px;
+    height: 34px;
+    font-size: 26px;
+    transform: translate(250px,80px);
 }
 
 .container-h{
@@ -109,12 +157,13 @@ h1{
     transform: translate(30px,70px);
 }
 
-img{
+.container-img{
     width: 300px;
     height: 211.85px;
     border-radius: 10px;
     transform: translate(660px, -110px);
 }
+
 .pp{
     height: auto;
     width: 100vw;
